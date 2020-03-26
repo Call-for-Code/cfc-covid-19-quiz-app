@@ -4,6 +4,8 @@ This is a very simple example quiz application that uses a Loopback generated ex
 
 As more and more learning and collaboration moves online, developers will start to build microservices for distance learning. In this case a simple quiz app. The starter kit could easily be remixed into a short essay app, a grading app, or other education tool. Loopback is an open source tool for quickly building a data api for your applications. Whatever your specific application does, using loopback gets you quickly writing application logic and not writing data handling code.
 
+!(quiz app pic)[img/quiz-app.png]
+
 ## Getting started
 
 The core of this example is *generated code* from the Loopback utility. For clarity, we're using the now-deprecated version 3.0 of the library. This just makes it even easier to start, consider upgrading to Loopback v4 to get the latest features and security updates.
