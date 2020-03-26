@@ -10,7 +10,7 @@ As more and more learning and collaboration moves online, developers will start 
 
 The core of this example is *generated code* from the Loopback utility. For clarity, we're using the now-deprecated version 3.0 of the library. This just makes it even easier to start, consider upgrading to Loopback v4 to get the latest features and security updates.
 
-To get the most out of this starterkit, you should create your own Loopback app. (It's super fast!) [https://www.youtube.com/watch?v=iOMD27DjuO4]. However, to start this one, here are the steps (to use pre-created data and react builds, see [quickstart]():
+To get the most out of this starterkit, you should create your own Loopback app. [It's super fast!] (https://www.youtube.com/watch?v=iOMD27DjuO4). However, to start this one, here are the steps (to use pre-created data and react builds, see [quickstart](https://github.com/nibalizer/cfc-covid-19-quiz-app#quickstart):
 
 ```bash
 npm install
