@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quizapp-deployment
+  labels:
+    app: quizapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: quizapp
+  template:
+    metadata:
+      labels:
+        app: quizapp
+    spec:
+      containers:
+      - name: quizapp
+        image: quay.io/nibalizer/quizapp
+        imagePullPolicy: Always
+        env:
+        - name: DEBUG
+          value: "FALSE"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: quizapp
+  labels:
+    app: quizapp
+spec:
+  ports:
+  - port: 3000
+    protocol: TCP
+  selector:
+    app: quizapp
+---
+ apiVersion: networking.k8s.io/v1beta1
+ kind: Ingress
+ metadata:
+   name: myingress
+ spec:
+   rules:
+   - host: <your ingress subdomain here>
+     http:
+       paths:
+       - path: /
+         backend:
+           serviceName: quizapp
+           servicePort: 3000
