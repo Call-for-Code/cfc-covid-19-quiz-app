@@ -4,7 +4,7 @@ import "./App.css";
 
 async function fetchQuiz(id) {
   const resp = await fetch(
-    `http://192.168.0.15:3030/api/quizes/${id}/questions`
+    `/api/quizes/${id}/questions`
   );
   const data = await resp.json();
   return data;
