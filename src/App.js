@@ -38,7 +38,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Hi! </h1>
+        <img alt="IBM Logo" src="ibm-logo-white.png" class="logo"/>
+        <h1> Simple Quiz App</h1>
         <ul>
           {quiz.map((question) => (
             <div key={question.id}>
@@ -61,18 +62,8 @@ function App() {
           ))}
         </ul>
         <button onClick={handleCheckAnswers}>Submit</button>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <p>Go Further with <a href="https://reactjs.org/tutorial/tutorial.html">React</a> and <a href="https://loopback.io/">Loopback</a></p>
+      <p>Deploy your app using <a href="https://github.com/IBM/nodejs-express-app#ibm-cloud-developer-tools">Cloud Foundry</a> or <a href="https://developer.ibm.com/patterns/app-modernization-s2i-openshift/">Kubernetes and OpenShift</a>.</p>
       </header>
     </div>
   );
