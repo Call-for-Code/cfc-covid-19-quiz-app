@@ -43,6 +43,12 @@ The frontend is coded in [React](https://reactjs.org/), a library for user inter
 
 ```bash
 TODO: instructions for building react frontend code
+cd frontend
+npm install
+SKIP_PREFLIGHT_CHECK=true npm run build
+# this creates a build in build/
+rm -fr ../public/*
+cp -r build/* ../public/
 ```
 
 
