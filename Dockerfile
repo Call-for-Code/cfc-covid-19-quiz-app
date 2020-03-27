@@ -10,6 +10,8 @@ COPY package.json /opt/app-root/src
 RUN npm install --only=prod
 COPY server /opt/app-root/src/server
 COPY public /opt/app-root/src/public
+COPY common /opt/app-root/src/common
+COPY data.db /opt/app-root/src/
 
 ENV NODE_ENV production
 ENV PORT 3000
