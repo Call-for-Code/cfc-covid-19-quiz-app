@@ -14,7 +14,7 @@ To get the most out of this starterkit, you should create your own Loopback app.
 
 ```bash
 npm install
-npm serve
+npm start
 ```
 
 Once the API is up, you can navigate to the swagger api explorer at <https://localhost:3000/explorer>. Once there you can start to put data into your API right away. See screenshots:
