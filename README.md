@@ -13,11 +13,13 @@ The core of this example is *generated code* from the Loopback utility. For clar
 To get the most out of this starterkit, you should create your own Loopback app. [It's super fast!] (https://www.youtube.com/watch?v=iOMD27DjuO4). However, to start this one, here are the steps (to use pre-created data and react builds, see [quickstart](https://github.com/nibalizer/cfc-covid-19-quiz-app#quickstart):
 
 ```bash
+git clone https://github.com/Call-for-Code/cfc-covid-19-quiz-app.git
+cd cfc-covid-19-quiz-app
 npm install
 npm start
 ```
 
-Once the API is up, you can navigate to the swagger api explorer at <https://localhost:3000/explorer>. Once there you can start to put data into your API right away. See screenshots:
+Once the API is up, you can navigate to the swagger api explorer at <https://localhost:3030/explorer>. Once there you can start to put data into your API right away. See screenshots:
 
 TODO: <screenshots of swagger api>
 
