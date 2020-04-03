@@ -1,0 +1,31 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "quiz": 3,
+    "question": 12
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "quiz": {
+      "1": "{\"author\":\"Spencer & Joe\",\"title\":\"Children's Media\",\"pass_pct\":0.6,\"id\":1}",
+      "2": "{\"author\":\"Spencer K\",\"title\":\"Questions about StarCraft\",\"pass_pct\":0.7,\"id\":2}"
+    },
+    "question": {
+      "1": "{\"question_text\":\"What Color is Clifford the big Dog?\",\"answers\":[\"Yellow\",\"Red\",\"Blue\",\"Green\"],\"correct_answer_index\":1,\"id\":1}",
+      "6": "{\"question_text\":\"What kind of vehicle is Thomas?\",\"answers\":[\"Airplane\",\"Submarine\",\"Car\",\"Train\"],\"correct_answer_index\":3,\"id\":6}",
+      "7": "{\"question_text\":\"What program features Lightning McQueen\",\"answers\":[\"Cars\",\"Frozen\",\"Shrek\",\"Baby Shark\"],\"correct_answer_index\":0,\"id\":7}",
+      "8": "{\"question_text\":\"Who was the mechanic in Rescue Rangers?\",\"answers\":[\"Chip\",\"Dale\",\"Gadget\",\"Bernard\"],\"correct_answer_index\":3,\"quizId\":1,\"id\":8}",
+      "9": "{\"question_text\":\"What race does flash play?\",\"answers\":[\"Terran\",\"Protoss\",\"Zerg\",\"Night Elf\"],\"correct_answer_index\":0,\"quizId\":1,\"id\":9}",
+      "10": "{\"question_text\":\"What country does Serral call home?\",\"answers\":[\"The Netherlands\",\"Korea\",\"USA\",\"Finland\"],\"correct_answer_index\":3,\"quizId\":1,\"id\":10}",
+      "11": "{\"question_text\":\"Which immobile ground unit has the longest range?\",\"answers\":[\"Siege Tank\",\"Spore Colony\",\"Photon Cannon\",\"Bunker (Marines\"],\"correct_answer_index\":0,\"quizId\":1,\"id\":11}"
+    }
+  }
+}
