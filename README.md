@@ -47,10 +47,10 @@ However, to start this app, use the following steps. (**Note**: To use pre-creat
 
    ```bash
    npm install
-   npm serve
+   npm start
    ```
    
-2. When the API is up, navigate to the Swagger API explorer at <https://localhost:3000/explorer>. From there, you can start to add data into your API right away. 
+2. When the API is up, navigate to the Swagger API explorer at <https://localhost:3030/explorer>. From there, you can start to add data into your API right away. 
 
     ![Swagger API explorer - adding data](images/quiz-app-2.png)
 
@@ -97,7 +97,10 @@ SKIP_PREFLIGHT_CHECK=true npm run build
 # this creates a build in build/
 rm -fr ../public/*
 cp -r build/* ../public/
+# restart the app
 ```
+
+To connect to the frontend access <http://localhost:3030/index.html>
 
 
 ### 3. Deploy on IBM Cloud
