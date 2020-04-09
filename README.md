@@ -21,7 +21,7 @@ By completing this tutorial, you will learn how to create a simple example quiz 
 
 ## Prerequisites
 
-The core of this example is *generated code* from the Loopback utility. For clarity, we're using the now-deprecated version 3.0 of the Loopback library. This makes the app easier to start, but you should consider upgrading to Loopback v4 to get the latest features and security updates.
+The core of this example is *generated code* from the Loopback utility. For clarity, we're using the now-deprecated version 3.0 of the Loopback library. This makes the app easier to start, but you should consider upgrading to Loopback v4 to get the latest features and security updates. This application uses [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/get-npm), please ensure you have recent versions of both for development.
 
 ## Estimated time
 
