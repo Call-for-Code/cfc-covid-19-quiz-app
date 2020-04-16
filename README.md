@@ -46,6 +46,8 @@ However, to start this app, use the following steps. (**Note**: To use pre-creat
 1. Run the following commands.
 
    ```bash
+   git clone https://github.com/Call-for-Code/cfc-covid-19-quiz-app.git
+   cd cfc-covid-19-quiz-app
    npm install
    npm start
    ```
