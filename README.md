@@ -12,8 +12,6 @@ Loopback is an open source tool for quickly building a data api for your applica
 
 You can find code and related files for this tutorial in the accompanying <a href="https://github.com/Call-for-Code/cfc-covid-19-quiz-app" target="\_blank">GitHub repo</a>.
 
-You can also [try a quiz](http://nibz-falco-test-2-5290c8c8e5797924dc1ad5d1b85b37c0-0000.us-east.containers.appdomain.cloud/index.html) and [explore the api](http://nibz-falco-test-2-5290c8c8e5797924dc1ad5d1b85b37c0-0000.us-east.containers.appdomain.cloud/explorer/) before you get started on your own app.
-
 
 ## Learning objectives
 
